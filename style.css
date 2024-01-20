@@ -51,20 +51,25 @@ padding: 15px 35px;
 }
 
 /* header related styles */
-.header{
+#header{
 
     background: #FFF8F3;
-
+    background-image:url('../web-developer-portfolio/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items:center;
 }
 
 .profile-pic{
-width: 200px;
+width: 500px;
 
 
+}
+.banner-greeting{
+    font-size: 45px;
 }
